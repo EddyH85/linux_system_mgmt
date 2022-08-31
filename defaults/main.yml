@@ -1,4 +1,5 @@
 ---
 # defaults file for linux_system_mgmt
 
+# chronyd NTP Pool
 ntp-pool: europe.pool.ntp.org
