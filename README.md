@@ -1,7 +1,7 @@
 Linux System Management
 =========
 
-Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on vSphere, PowerVM or Cloud Managed.
+Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on vSphere, IBM PowerVM or Cloud Managed.
 
 The following settings are managed with it:
 - Kernel Settings
