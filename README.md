@@ -21,6 +21,7 @@ Basic installed Linux System with Ansible Package, ansible User and exchanged PS
 
 Installation
 ------------
+
 ansible-galaxy install EddyH85.linux_system_mgmt
 
 Role Variables
