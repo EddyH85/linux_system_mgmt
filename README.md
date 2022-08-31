@@ -1,7 +1,7 @@
 Linux System Management
 =========
 
-Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on Bare-Metal, Vmware vSphere, IBM PowerVM or Cloud Managed Installation.
+Ansible role is a unified Role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on Bare-Metal, Vmware vSphere, IBM PowerVM or Cloud Managed Installation.
 
 This role is suitable for system rollout, managed systems with ansible and verify some Settings or change it.
 
