@@ -1,2 +1,4 @@
 ---
 # tasks file for linux_system_mgmt
+
+- include_vars: main.yml
