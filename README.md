@@ -1,4 +1,4 @@
-Role Name
+Linux System Management
 =========
 
 ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris.
