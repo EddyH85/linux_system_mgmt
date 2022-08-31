@@ -1,7 +1,7 @@
 Linux System Management
 =========
 
-ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris.
+Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris.
 The following settings are managed with it:
 - NTP Client (chronyd)
 - Import custom certificates (PKI)
