@@ -2,7 +2,6 @@ Linux System Management
 =========
 
 Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on Bare-Metal, Vmware vSphere, IBM PowerVM or Cloud Managed Installation.
-
 This role is suitable for system rollout, managed existing systems with ansible or change settings.
 
 The following settings are managed with it:
