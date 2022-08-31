@@ -6,7 +6,7 @@ The following settings are managed with it:
 - NTP Client (chronyd)
 - Set DNS Servers
 - manage the /etc/hosts entries
-- Manage lokale Users, Pre-Shared-keys and entries to sudoers
+- Manage lokale Users, Pre-Shared-keys and entries in to sudoers
 - Managed some Daemons, for Example Postfix
 - Manage multipathing Settings if needed
 - Import custom certificates (PKI)
