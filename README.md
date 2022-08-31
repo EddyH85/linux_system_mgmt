@@ -10,7 +10,7 @@ The following settings are managed with it:
 - Managed some Daemons, for Example Postfix
 - Manage multipathing Settings if needed
 - Import custom certificates (PKI)
-- Set I/O Scheduler for virtual Enviroment
+- Set I/O Scheduler for virtual Enviroments
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
 - Install monitoring and Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
