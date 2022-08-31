@@ -21,7 +21,7 @@ The following settings are managed with it:
 Requirements
 ------------
 
-Basic installed Linux System with Ansible Package, ansible User and exchanged PSK for the ansible User.
+Basic installed Linux System with Ansible Package, existing ansible User and exchanged PSK for the ansible User.
 
 Installation
 ------------
