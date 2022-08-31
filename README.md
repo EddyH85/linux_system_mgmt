@@ -8,7 +8,7 @@ This role is suitable for system rollout, managed systems with ansible and verif
 The following settings are managed with it:
 - Linux Kernel Settings
 - NTP Client (chronyd)
-- DNS Servers
+- Verfiy correct DNS Servers
 - Manage the /etc/hosts entries for the local host with the entries from the DNS server
 - lokale Users, Pre-Shared-keys and entries in to sudoers
 - Manage some Services, for example Postfix
