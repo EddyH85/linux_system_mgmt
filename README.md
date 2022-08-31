@@ -14,7 +14,7 @@ The following settings are managed with it:
 - Import custom certificates (PKI)
 - Set I/O Scheduler for virtual Enviroments
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
-- Install monitoring and Dokumentations Tools (for Example Check_mk and LPAR2RRD)
+- Install Monitoring, Performance or Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
 Requirements
 ------------
