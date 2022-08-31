@@ -8,7 +8,7 @@ The following settings are managed with it:
 - manage the /etc/hosts entries
 - Set DNS Server
 - Set I/O Scheduler for virtual Enviroment
-- Create lokale Users and add to the sudoers
+- Manage lokale Users and entries to sudoers
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
 
 Requirements
