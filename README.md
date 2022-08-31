@@ -4,16 +4,15 @@ Linux System Management
 Ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris.
 The following settings are managed with it:
 - NTP Client (chronyd)
-- Import custom certificates (PKI)
-- manage the /etc/hosts entries
 - Set DNS Servers
-- Set I/O Scheduler for virtual Enviroment
+- manage the /etc/hosts entries
 - Manage lokale Users, Pre-Shared-keys and entries to sudoers
-- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
 - Managed some Daemons, for Example Postfix
-- Install monitoring and Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 - Manage multipathing Settings if needed
-
+- Import custom certificates (PKI)
+- Set I/O Scheduler for virtual Enviroment
+- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
+- Install monitoring and Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
 Requirements
 ------------
