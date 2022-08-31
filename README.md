@@ -7,6 +7,9 @@ The following settings are managed with it:
 - Import custom certificates (PKI)
 - manage the /etc/hosts entries
 - Set DNS Server
+- Set I/O Scheduler for virtual Enviroment
+- Create lokale Users and add to the sudoers
+- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
 
 Requirements
 ------------
