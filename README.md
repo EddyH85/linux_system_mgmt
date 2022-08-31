@@ -8,7 +8,7 @@ The following settings are managed with it:
 - DNS Servers
 - /etc/hosts entries
 - lokale Users, Pre-Shared-keys and entries in to sudoers
-- Managed some Daemons, for Example Postfix
+- Manage some Daemons, for Example Postfix
 - Multipathing Settings if needed
 - Import custom certificates (PKI)
 - Set I/O Scheduler for virtual Enviroments
