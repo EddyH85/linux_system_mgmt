@@ -7,7 +7,7 @@ The following settings are managed with it:
 - Linux Kernel Settings
 - NTP Client (chronyd)
 - DNS Servers
-- /etc/hosts entries
+- Manage the /etc/hosts entries for the local host with the entries from the DNS server
 - lokale Users, Pre-Shared-keys and entries in to sudoers
 - Manage some Services, for example Postfix
 - Multipathing Settings if needed
