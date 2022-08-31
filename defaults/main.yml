@@ -3,3 +3,9 @@
 
 # chronyd NTP Pool
 ntp-pool: europe.pool.ntp.org
+
+# DNS Servers
+DNSServers-ipv4:
+  - 8.8.8.8
+  - 8.8.4.4
+
