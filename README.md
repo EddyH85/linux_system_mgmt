@@ -1,7 +1,12 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+ansible role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris.
+The following settings are managed with it:
+- NTP Client (chronyd)
+- Import Custom certificates (PKI)
+- manage the /etc/hosts entries
+- Set DNS Server
 
 Requirements
 ------------
