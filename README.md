@@ -10,6 +10,7 @@ The following settings are managed with it:
 - Set I/O Scheduler for virtual Enviroment
 - Manage lokale Users, Pre-Shared-keys and entries to sudoers
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
+- Managed some Daemons
 
 
 Requirements
