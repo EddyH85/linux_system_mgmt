@@ -11,7 +11,7 @@ The following settings are managed with it:
 - Manage lokale Users, Pre-Shared-keys and entries to sudoers
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
 - Managed some Daemons, for Example Postfix
-- Install monitoring and Dokumentations Tools
+- Install monitoring and Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
 
 Requirements
