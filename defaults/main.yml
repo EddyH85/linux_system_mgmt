@@ -1,2 +1,4 @@
 ---
 # defaults file for linux_system_mgmt
+
+ntp-pool: europe.pool.ntp.org
