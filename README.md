@@ -1,4 +1,4 @@
-Linux System Management
+Linux System Management (In Development)
 =========
 
 This is unified Ansible Role to centrally manage some Linux system settings, for open(SUSE), Red Hat/ CentOS and Debian based Distris on Bare-Metal, Vmware vSphere, IBM PowerVM or Cloud Managed Installation.
