@@ -4,7 +4,7 @@
 - include_vars: main.yml
 
 - name: Verify multipath Settings
-  include_tasks: multipathing.yml
+  include_tasks: multipath.yml
 
 - name: DNS | verify correct DNS Servers
   include_tasks: dns_settings.yml
