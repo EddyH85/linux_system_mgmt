@@ -1,1 +1,14 @@
 ---
+  tasks:
+    - debug:
+        msg: "Lookup for {{item}} is {{ query('dig', item + '/PTR') }}"
+      loop: "{{ hostvars[inventory_hostname]['ansible_all_ipv4_addresses'] }}"
+    - name: /etc/hosts | Validate DNS record and Set Entry if not exist
+      lineinfile:
+        backup: no
+        state: present
+        dest: /etc/hosts
+        regexp: '^#?\s*{{ item }}\s'
+        line: "{{item}}\t{{lookup('dig', item + '/PTR').rstrip('.')}} {{lookup('dig', item + '/PTR').split('.')[0]}}"
+      loop: "{{hostvars[inventory_hostname]['ansible_all_ipv4_addresses'] }}"
+      when: lookup('dig', item + '/PTR').rstrip('.') != "NXDOMAIN"
