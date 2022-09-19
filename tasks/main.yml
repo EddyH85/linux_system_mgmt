@@ -2,3 +2,18 @@
 # tasks file for linux_system_mgmt
 
 - include_vars: main.yml
+
+- name: Verify multipath Settings
+  include_tasks: multipathing.yml
+
+- name: DNS | verify correct DNS Servers
+  include_tasks: dns_settings.yml
+
+- name: Check /etc/hosts entries
+  include_tasks: etc_hosts.yml
+
+- name: NTP Client | install & configure chronyd
+  include_tasks: chronyd.yml
+
+- name: | Set I/O Scheduler for VE
+  include_tasks: set_io_scheduler.yml
