@@ -15,7 +15,7 @@ The following settings are managed with it:
 - Multipathing Settings if needed
 - Import custom certificates (PKI)
 - Set I/O Scheduler for virtual Enviroments
-- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere and PowerVM)
+- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere, PowerVM, Cloud, etc)
 - Install Monitoring, Performance or Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
 Requirements
