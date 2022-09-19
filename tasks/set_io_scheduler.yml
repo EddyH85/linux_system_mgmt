@@ -1,1 +1,26 @@
 ---
+- name: set I/O Scheduler to noop with udev rule
+  blockinfile:
+    path: /etc/udev/rules.d/60-io-scheduler.rules
+    create: yes
+    state: present
+    mode: 0644
+    owner: root
+    group: root
+    block: |
+      # Use none I/O scheduler for high-performance for Disks
+      ACTION=="add|change", KERNEL=="sd*[!0-9]", SUBSYSTEM=="block", ATTR{queue/scheduler}="none"
+      ACTION=="add|change", KERNEL=="dm-[0-9]*", SUBSYSTEM=="block", ATTR{queue/scheduler}="none"
+  register: result
+
+- name: Enable udev Rule if 60-io-scheduler.rules changed
+  command: /bin/bash -c "udevadm control --reload-rules && udevadm trigger"
+  when: result.changed
+
+- name: Set noop/none in DEV scheduler
+  shell: "if ! grep -qP '\\[no(op|ne)\\]' /sys/block/{{ item }}/queue/scheduler; then ( fgrep -q noop /sys/block/{{ item }}/queue/scheduler && printf noop || printf none) > /sys/block/{{ item }}/queue/scheduler; else cat /sys/block/{{ item }}/queue/scheduler; fi"
+  register: executed_command
+  changed_when: "'[no' not in executed_command.stdout"
+  failed_when: "executed_command.rc != 0 or executed_command.stderr != ''"
+  when: "ansible_devices[item].scheduler_mode != ''"
+  with_items: "{{ ansible_devices }}"
