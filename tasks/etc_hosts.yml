@@ -3,7 +3,7 @@
     - debug:
         msg: "Lookup for {{item}} is {{ query('dig', item + '/PTR') }}"
       loop: "{{ hostvars[inventory_hostname]['ansible_all_ipv4_addresses'] }}"
-    - name: /etc/hosts | Validate DNS record and Set Entry if not exist
+    - name: /etc/hosts | Validate DNS record and Set Entry if needed
       lineinfile:
         backup: no
         state: present
