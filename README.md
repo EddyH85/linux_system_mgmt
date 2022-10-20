@@ -6,6 +6,8 @@ This is unified Ansible Role to centrally manage some Linux system settings, for
 This role is suitable for system rollout, manage existing systems with ansible to verify some Settings and/or to change them.
 
 The following settings are managed with it:
+- Subscription Management (Linux Distribution specific)
+- local Users, Pre-Shared-keys and entries in to sudoers
 - Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere, PowerVM, Cloud, etc)
 - Linux Kernel Settings (plattform specific)
 - Set I/O Scheduler for virtual Enviroments
@@ -14,7 +16,6 @@ The following settings are managed with it:
 - NTP Client (chronyd)
 - Verfiy correct DNS Servers
 - Manage the /etc/hosts entries for the local host with the entries from the DNS server
-- local Users, Pre-Shared-keys and entries in to sudoers
 - Manage some Services, for example Postfix
 - Install Monitoring, Performance or Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
