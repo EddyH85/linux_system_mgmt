@@ -8,8 +8,8 @@ This role is suitable for system rollout, manage existing systems with ansible t
 The following settings are managed with it:
 - Subscription Management (Linux Distribution specific)
 - local Users, Pre-Shared-keys and entries in to sudoers
-- Set Hypervisor specific settings and install latest Hypervisor Tools (vSphere, PowerVM, Cloud, etc.)
-- Linux Kernel Settings (plattform specific)
+- Set v specific settings and install latest Hypervisor Tools (vSphere, PowerVM, Cloud, etc.)
+- Linux Kernel Settings (Plattform specific)
 - Set I/O Scheduler for virtual Enviroments
 - Multipathing Settings if needed
 - Import custom certificates (PKI)
