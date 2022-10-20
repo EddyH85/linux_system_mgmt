@@ -14,7 +14,7 @@ The following settings are managed with it:
 - Multipathing Settings if needed
 - Import custom certificates (PKI)
 - NTP Client (chronyd)
-- Verfiy correct DNS Servers
+- DNS Servers settings
 - Manage the /etc/hosts entries for the local host with the entries from the DNS server
 - Manage some Services, for example Postfix
 - Install Monitoring, Performance or Dokumentations Tools (for Example Check_mk and LPAR2RRD)
