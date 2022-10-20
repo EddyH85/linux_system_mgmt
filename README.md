@@ -16,7 +16,7 @@ The following settings are managed with it:
 - NTP Client (chronyd)
 - DNS Servers settings
 - Manage the /etc/hosts entries for the local host with the entries from the DNS server
-- Manage some Services, for example Postfix
+- Manage other Services, for example Postfix etc.
 - Install Monitoring, Performance or Dokumentations Tools (for Example Check_mk and LPAR2RRD)
 
 Requirements
