@@ -6,7 +6,7 @@ This is unified Ansible Role to centrally manage some Linux system settings, for
 This role is suitable for system rollout, manage existing systems with ansible to verify some Settings and/or to change them.
 
 The following settings are managed with it:
-- Linux Kernel Settings
+- Linux Kernel Settings (plattform specific)
 - NTP Client (chronyd)
 - Verfiy correct DNS Servers
 - Manage the /etc/hosts entries for the local host with the entries from the DNS server
